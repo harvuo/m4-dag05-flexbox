@@ -89,7 +89,7 @@ article img,
 .article__container article {
   display: flex;
   flex-direction: column;
-  flex: 1 1 220px;
+  flex: 0 1 220px;
 }
 
 footer {
