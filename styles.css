@@ -73,6 +73,17 @@ article img,
 .container {
   display: flex;
   justify-content: space-between;
+  /* 
+   * space-between: Första elementet längst till vänster, sista längst till 
+     höger, och resten jämnt utspridda med lika mycket tomrum emellan.
+  Alternativ att använda:
+   * center: Samlar alla element i mitten av container.
+   * flex-end: Trycker ihop alla element och placerar dem längst till 
+     höger (slutet) i container.
+   * space-around: Fördelar ut ett jämnt tomrum runt *alla* element. 
+     Det betyder att det blir halva avståndet vid kanterna och dubbelt 
+     så mycket mellan själva elementen.
+   */
   align-items: center;
   flex-wrap: wrap;
   max-width: 1100px;
@@ -84,6 +95,7 @@ article img,
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .article__container article {
