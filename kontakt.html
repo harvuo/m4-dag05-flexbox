@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Boka bord – Kafé Kardemumma</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header>
-    <h1>Kafé Kardemumma</h1>
-    <nav aria-label="Huvudmeny">
-      <ul>
-        <li><a href="index.html">Startsida</a></li>
-        <li><a href="index.html#meny">Meny</a></li>
-        <li><a href="kontakt.html" aria-current="page">Boka bord</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <img src="images/logo.svg" alt="Kafé Kardemummas logotyp">
+      <h1>Kafé Kardemumma</h1>
+      <nav aria-label="Huvudmeny">
+        <ul>
+          <li><a href="index.html">Startsida</a></li>
+          <li><a href="index.html#meny">Meny</a></li>
+          <li><a href="kontakt.html" aria-current="page">Boka bord</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
@@ -57,14 +62,18 @@
 
       <fieldset>
         <legend>Kostönskemål</legend>
-        <div class="val"><input type="checkbox" id="veg" name="kost" value="vegetarisk"><label for="veg">Vegetarisk</label></div>
-        <div class="val"><input type="checkbox" id="vegan" name="kost" value="vegansk"><label for="vegan">Vegansk</label></div>
-        <div class="val"><input type="checkbox" id="gluten" name="kost" value="glutenfri"><label for="gluten">Glutenfri</label></div>
+        <div class="val"><input type="checkbox" id="veg" name="kost" value="vegetarisk"><label
+            for="veg">Vegetarisk</label></div>
+        <div class="val"><input type="checkbox" id="vegan" name="kost" value="vegansk"><label
+            for="vegan">Vegansk</label></div>
+        <div class="val"><input type="checkbox" id="gluten" name="kost" value="glutenfri"><label
+            for="gluten">Glutenfri</label></div>
       </fieldset>
 
       <fieldset>
         <legend>Hur vill du få bekräftelsen? *</legend>
-        <div class="val"><input type="radio" id="via-epost" name="svar" value="epost" required><label for="via-epost">E-post</label></div>
+        <div class="val"><input type="radio" id="via-epost" name="svar" value="epost" required><label
+            for="via-epost">E-post</label></div>
         <div class="val"><input type="radio" id="via-sms" name="svar" value="sms"><label for="via-sms">SMS</label></div>
       </fieldset>
 
@@ -83,11 +92,14 @@
   </main>
 
   <footer>
-    <p>&copy; 2026 Kafé Kardemumma</p>
-    <address>
-      Fiktivgatan 1, 111 11 Stockholm<br>
-      <a href="mailto:hej@kardemumma.example">hej@kardemumma.example</a>
-    </address>
+    <div class="container">
+      <p>&copy; 2026 Kafé Kardemumma</p>
+      <address>
+        Fiktivgatan 1, 111 11 Stockholm<br>
+        <a href="mailto:hej@kardemumma.example">hej@kardemumma.example</a>
+      </address>
+    </div>
   </footer>
 </body>
+
 </html>

@@ -70,6 +70,16 @@ article img,
   text-decoration: none;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
 footer {
   background-color: #2b1c14;
   color: #ffffff;
